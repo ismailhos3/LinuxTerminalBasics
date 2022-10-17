@@ -1,5 +1,17 @@
 # Computer Programming
-## Installiation of Ubuntu
-To download Ubuntu, type Ubuntu Download into google search button or click [This Link](https://ubuntu.com/download/desktop).
-After, you will see the download page. At this page, there is a button for download the Ubuntu 22.04.1 LTS. However, we will use the Ubuntu 20.04 LTS in our courses. In the version we will use, the first two numbers are important. So I mean Ubuntu 20.04. Please note that there are numbers 20 and 04 here. The number after these numbers is not important.
-To download Ubuntu 20.04, click on the button that says "see our alternative downloads" as in the image.
+## `cat` Command 
+This command can add content to a file, and this makes it super powerful.
+In its simplest usage, `cat` prints a file's content to the standard output:
+
+`cat example.txt` 
+
+You can print the content of multiple files:
+
+`cat example.txt example2.txt` 
+
+and using the output redirection operator `>` you can concatenate the content of multiple files into a new file:
+
+`cat example.txt example2.txt > new_example.txt`
+
+Here, ***new_example.txt*** is a concatenated version of files ***example.txt*** and ***example2.txt***
+
