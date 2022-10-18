@@ -114,3 +114,12 @@ The folders you delete must be empty!
 ![16.png](./figures/16.png)
 
 ## `rm` Command
+
+To delete folders with files in them, we'll use the more generic `rm` command which deletes files and folders, using the `-rf` option:
+
+`rm TestFile.txt`
+
+![17.png](./figures/17.png)
+
+rm command do not delete the folders. 
+
