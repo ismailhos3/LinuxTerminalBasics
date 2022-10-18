@@ -51,4 +51,19 @@ When we want to write in a present file via on terminal:
 
 ![8.png](./figures/8.png)
 
-## `less` Command
+## `tail` Command
+
+You can print the last 2 (or NUM) lines in a file:
+
+`tail -n 2 example3.txt`
+
+![9.png](./figures/9.png)
+
+You can print the whole file content starting from a specific line using + before the line number:
+
+`tail -n +2 example3.txt`
+
+![10.png](./figures/10.png)
+
+## `mkdir` Command
+
