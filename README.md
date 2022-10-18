@@ -32,13 +32,12 @@ Using `>>` you can append the content of multiple files into a new file, creatin
 When you're looking at source code files it's helpful to see the line numbers. You can have cat print them using the -n option:
 
 `cat -n example3.txt`
-![7.png](./figures/7.png)
+
 ![5.png](./figures/5.png)
 
 You can only add a number to non-blank lines using -b:
 
 `cat -b example3.txt`
-
 
 ![6.png](./figures/6.png)
 
