@@ -129,3 +129,25 @@ If this command is used with `-rf` option, deletes everything such as folders an
 
 ## `touch` Command
 
+You can create an empty file or files using the touch command:
+
+`touch lessons`
+
+![19.png](./figures/19.png)
+
+## `xdg-open` Command
+
+`xdg-open file_name or folder_name` 
+
+This command opens the specified file or folder.
+
+![20.png](./figures/20.png)
+
+To open current directory:
+
+`xdg-open .` is always used to open the current directory. Here the dot represents the current directory.
+
+![21.png](./figures/21.png)
+
+## `mv` Command
+
