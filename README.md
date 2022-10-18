@@ -93,11 +93,13 @@ You can also create a new set of nested files:
 
 ## `rmdir` Command
 
-Just as you can create a folder using `mkdir`, you can delete a folder using `rmdir` The folder you delete must be empty.:
+Just as you can create a folder using `mkdir`, you can delete a folder using `rmdir`:
 
 `mkdir test_file`
 
 `rmdir test_file`
+
+The folder you delete must be empty!
 
 ![15.png](./figures/15.png)
 
