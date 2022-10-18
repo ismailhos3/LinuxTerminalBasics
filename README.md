@@ -109,6 +109,7 @@ You can also delete multiple folders at once:
 
 `rmdir testfile1 testfile2`
 
+The folders you delete must be empty!
 
 ![16.png](./figures/16.png)
 
