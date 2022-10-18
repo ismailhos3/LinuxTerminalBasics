@@ -5,13 +5,13 @@ In its simplest usage, `cat` prints a file's content to the standard output:
 
 `cat example.txt` 
 
-![1.png](./figures/1.png)
+![2.png](./figures/2.png)
 
 You can print the content of multiple files:
 
 `cat example.txt example2.txt` 
 
-![2.png](./figures/2.png)
+![1.png](./figures/1.png)
 
 and using the output redirection operator `>` you can concatenate the content of multiple files into a new file:
 
