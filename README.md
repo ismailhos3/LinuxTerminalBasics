@@ -67,3 +67,26 @@ You can print the whole file content starting from a specific line using + befor
 
 ## `mkdir` Command
 
+You create folders using the mkdir command:
+
+`mkdir fruits`
+
+![11.png](./figures/11.png)
+
+You can create multiple folders with one command:
+
+`mkdir plants animals`
+
+![12.png](./figures/12.png)
+
+You can also create multiple nested folders by adding the -p option:
+
+`mkdir -p fruits/apples`
+
+![13.png](./figures/13.png)
+
+You can also create a new set of nested files:
+
+`mkdir -p vehicles/electric_vehicles/tesla_car`
+
+![14.png](./figures/14.png)
