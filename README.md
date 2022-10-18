@@ -151,3 +151,22 @@ To open current directory:
 
 ## `mv` Command
 
+Once you have a file, you can move it around using the `mv` command. You specify the file current path, and its new path:
+
+`mv mvcommand.txt move_command.txt`
+
+Here, mvcommand.txt is renamed as move_command.txt.
+
+![22.png](./figures/22.png)
+
+`mv move_command.txt plants`
+
+Here, move_command.txt is moved into the plants folder.
+
+![23.png](./figures/23.png)
+
+If the last parameter is a folder, the file located at the first parameter path is going to be moved into that folder. In this case, you can specify a list of files and they will all be moved in the folder path identified by the last parameter:
+
+`mv example.txt example2.txt example3.txt example4.txt example5.txt examples`
+
+![24.png](./figures/24.png)
