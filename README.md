@@ -90,3 +90,24 @@ You can also create a new set of nested files:
 `mkdir -p vehicles/electric_vehicles/tesla_car`
 
 ![14.png](./figures/14.png)
+
+## `rmdir` Command
+
+Just as you can create a folder using `mkdir`, you can delete a folder using `rmdir`:
+
+`mkdir test_file`
+
+`rmdir test_file`
+
+![15.png](./figures/15.png)
+
+You can also delete multiple folders at once:
+
+`mkdir testfile1 testfile2`
+
+`rmdir testfile1 testfile2`
+
+
+![16.png](./figures/16.png)
+
+## `rm` Command
