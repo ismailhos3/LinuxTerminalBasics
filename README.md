@@ -170,3 +170,20 @@ If the last parameter is a folder, the file located at the first parameter path 
 `mv example.txt example2.txt example3.txt example4.txt example5.txt examples`
 
 ![24.png](./figures/24.png)
+
+## `cp` Command
+
+You can copy a file using the `cp` command:
+
+![25.png](./figures/25.png)
+
+To copy folders you need to add the `-r` option to recursively copy the whole folder contents:
+
+![26.png](./figures/26.png)
+
+To copy multiple files to in to a folder:
+
+`cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
+
+![27.png](./figures/27.png)
+
