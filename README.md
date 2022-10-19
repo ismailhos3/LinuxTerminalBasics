@@ -1,5 +1,37 @@
 # Computer Programming
+
+## `pwd` Command
+
+`pwd` stands for `Print Work Directory` in Linux. Terminal opens at the home directory by default in Ubuntu. If you type pwd and press Enter you will see your home directory.
+
+![pwd_command.png](./figures/pwd_command.png)
+
+## `ls` Command
+
+We can list the files and folders in a directory using this command. It shows the files and folders located in your /home/"computer_name" directory. 
+
+![ls_command.png](./figures/ls_command.png)
+
+`ls` also has some options with it. One of them is `ls -l` which prints the details of the files such as the size of a file in KB and the date that the file has been created.
+
+![ls-l_command.png](./figures/ls-l_command.png)
+
+The other is `ls -la` and used for printing also the hidden files starting with `.` in your working directory.
+
+![ls-la_command.png](./figures/ls-la_command.png)
+
+## `cd` Command
+
+Once you have a folder, you can move into it using the `cd` command. `cd` means `Change Directory` in Linux. You invoke it specifying a folder to move into. You can specify a folder name, or an entire path.
+
+![cd_command.png](./figures/cd_command.png)
+
+You can use the `..` special path to indicate the parent folder:
+
+`cd ..` or 
+
 ## `cat` Command 
+
 This command can add content to a file, and this makes it super powerful.
 In its simplest usage, `cat` prints a file's content to the standard output:
 
