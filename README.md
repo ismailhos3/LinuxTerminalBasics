@@ -4,31 +4,31 @@
 
 `pwd` stands for `Print Work Directory` in Linux. Terminal opens at the home directory by default in Ubuntu. If you type pwd and press Enter you will see your home directory.
 
-![pwd_command.png](./figures/pwd_command.png)
+![](./figures/pwd_command.png)
 
 ## `ls` Command
 
 We can list the files and folders in a directory using this command. It shows the files and folders located in your /home/"computer_name" directory. 
 
-![ls_command.png](./figures/ls_command.png)
+![](./figures/ls_command.png)
 
 `ls` also has some options with it. One of them is `ls -l` which prints the details of the files such as the size of a file in KB and the date that the file has been created.
 
-![ls-l_command.png](./figures/ls-l_command.png)
+![](./figures/ls-l_command.png)
 
 The other is `ls -la` and used for printing also the hidden files starting with `.` in your working directory.
 
-![ls-la_command.png](./figures/ls-la_command.png)
+![](./figures/ls-la_command.png)
 
 ## `cd` Command
 
 Once you have a folder, you can move into it using the `cd` command. `cd` means `Change Directory` in Linux. You invoke it specifying a folder to move into. You can specify a folder name, or an entire path.
 
-![cd_command.png](./figures/cd_command.png)
+![](./figures/cd_command.png)
 
 You can use the `..` special path to indicate the parent folder:
 
-`cd ..` or 
+`cd ..` 
 
 ## `cat` Command 
 
@@ -43,7 +43,7 @@ You can print the content of multiple files:
 
 `cat example.txt example2.txt` 
 
-![1.png](./figures/1.png)
+![](./figures/1.png)
 
 and using the output redirection operator `>` you can concatenate the content of multiple files into a new file:
 
@@ -59,29 +59,29 @@ Using `>>` you can append the content of multiple files into a new file, creatin
 
 `cat example3.txt`
 
-![4.png](./figures/4.png)
+![](./figures/4.png)
 
 When you're looking at source code files it's helpful to see the line numbers. You can have cat print them using the -n option:
 
 `cat -n example3.txt`
 
-![5.png](./figures/5.png)
+![](./figures/5.png)
 
 You can only add a number to non-blank lines using -b:
 
 `cat -b example3.txt`
 
-![6.png](./figures/6.png)
+![](./figures/6.png)
 
 The command `cat > example5.txt` creates a new file as output. We can write text in this file from the terminal.
 
-![7.png](./figures/7.png)
+![](./figures/7.png)
 
 When we want to write in a present file via on terminal:
 
 `cat >> example5.txt` 
 
-![8.png](./figures/8.png)
+![](./figures/8.png)
 
 ## `tail` Command
 
@@ -89,13 +89,13 @@ You can print the last 2 (or NUM) lines in a file:
 
 `tail -n 2 example3.txt`
 
-![9.png](./figures/9.png)
+![](./figures/9.png)
 
 You can print the whole file content starting from a specific line using + before the line number:
 
 `tail -n +2 example3.txt`
 
-![10.png](./figures/10.png)
+![](./figures/10.png)
 
 ## `mkdir` Command
 
@@ -103,25 +103,25 @@ You create folders using the mkdir command:
 
 `mkdir fruits`
 
-![11.png](./figures/11.png)
+![](./figures/11.png)
 
 You can create multiple folders with one command:
 
 `mkdir plants animals`
 
-![12.png](./figures/12.png)
+![](./figures/12.png)
 
 You can also create multiple nested folders by adding the -p option:
 
 `mkdir -p fruits/apples`
 
-![13.png](./figures/13.png)
+![](./figures/13.png)
 
 You can also create a new set of nested files:
 
 `mkdir -p vehicles/electric_vehicles/tesla_car`
 
-![14.png](./figures/14.png)
+![](./figures/14.png)
 
 ## `rmdir` Command
 
@@ -133,7 +133,7 @@ Just as you can create a folder using `mkdir`, you can delete a folder using `rm
 
 The folder you delete must be empty!
 
-![15.png](./figures/15.png)
+![](./figures/15.png)
 
 You can also delete multiple folders at once:
 
@@ -143,7 +143,7 @@ You can also delete multiple folders at once:
 
 The folders you delete must be empty!
 
-![16.png](./figures/16.png)
+![](./figures/16.png)
 
 ## `rm` Command
 
@@ -153,11 +153,11 @@ When this command is used alone, it only deletes files, not folders.
 
 `rm TestFile.txt`
 
-![17.png](./figures/17.png)
+![](./figures/17.png)
 
 If this command is used with `-rf` option, deletes everything such as folders and files. 
 
-![18.png](./figures/18.png)
+![](./figures/18.png)
 
 ## `touch` Command
 
@@ -165,7 +165,7 @@ You can create an empty file or files using the touch command:
 
 `touch lessons`
 
-![19.png](./figures/19.png)
+![](./figures/19.png)
 
 ## `xdg-open` Command
 
@@ -173,13 +173,13 @@ You can create an empty file or files using the touch command:
 
 This command opens the specified file or folder.
 
-![20.png](./figures/20.png)
+![](./figures/20.png)
 
 To open current directory:
 
 `xdg-open .` is always used to open the current directory. Here the dot represents the current directory.
 
-![21.png](./figures/21.png)
+![](./figures/21.png)
 
 ## `mv` Command
 
@@ -189,33 +189,33 @@ Once you have a file, you can move it around using the `mv` command. You specify
 
 Here, mvcommand.txt is renamed as move_command.txt.
 
-![22.png](./figures/22.png)
+![](./figures/22.png)
 
 `mv move_command.txt plants`
 
 Here, move_command.txt is moved into the plants folder.
 
-![23.png](./figures/23.png)
+![](./figures/23.png)
 
 If the last parameter is a folder, the file located at the first parameter path is going to be moved into that folder. In this case, you can specify a list of files and they will all be moved in the folder path identified by the last parameter:
 
 `mv example.txt example2.txt example3.txt example4.txt example5.txt examples`
 
-![24.png](./figures/24.png)
+![](./figures/24.png)
 
 ## `cp` Command
 
 You can copy a file using the `cp` command:
 
-![25.png](./figures/25.png)
+![](./figures/25.png)
 
 To copy folders you need to add the `-r` option to recursively copy the whole folder contents:
 
-![26.png](./figures/26.png)
+![](./figures/26.png)
 
 To copy multiple files to in to a folder:
 
 `cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
 
-![27.png](./figures/27.png)
+![](./figures/27.png)
 
