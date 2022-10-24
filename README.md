@@ -4,7 +4,7 @@
 
 `pwd` stands for `Print Work Directory` in Linux. Terminal opens at the home directory by default in Ubuntu. If you type pwd and press Enter you will see your home directory.
 
-![pwd_command.png)](./figures/pwd_command.png)
+![pwd_command.png](./figures/pwd_command.png)
 
 ## `ls` Command
 
@@ -37,7 +37,7 @@ In its simplest usage, `cat` prints a file's content to the standard output:
 
 `cat example.txt` 
 
-![2.png](./figures/2.png)
+![](./figures/2.png)
 
 You can print the content of multiple files:
 
