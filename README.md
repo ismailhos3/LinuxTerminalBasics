@@ -51,7 +51,7 @@ and using the output redirection operator `>` you can concatenate the content of
 
 Here, ***new_example.txt*** is a concatenated version of files ***example.txt*** and ***example2.txt***
 
-![3.png](./figures/3.png)
+![](./figures/3.png)
 
 Using `>>` you can append the content of multiple files into a new file, creating it if it does not exist:
 
