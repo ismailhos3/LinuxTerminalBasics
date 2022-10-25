@@ -96,11 +96,11 @@ When this command is used alone, it only deletes files, not folders.
 
 `rm TestFile.txt`
 
-![](./figures/17.png)
+![](./figures/rm_command.png)
 
 If this command is used with `-rf` option, deletes everything such as folders and files. 
 
-![](./figures/18.png)
+![](./figures/rm_with_rf_command.png)
 
 ## `cat` Command 
 
@@ -109,13 +109,13 @@ In its simplest usage, `cat` prints a file's content to the standard output:
 
 `cat example.txt` 
 
-![](./figures/2.png)
+![](./figures/cat_command.png)
 
 You can print the content of multiple files:
 
 `cat example.txt example2.txt` 
 
-![](./figures/1.png)
+![](./figures/cat_multiple_command.png)
 
 and using the output redirection operator `>` you can concatenate the content of multiple files into a new file:
 
@@ -123,7 +123,7 @@ and using the output redirection operator `>` you can concatenate the content of
 
 Here, ***new_example.txt*** is a concatenated version of files ***example.txt*** and ***example2.txt***
 
-![](./figures/3.png)
+![](./figures/cat_merged_command.png)
 
 Using `>>` you can append the content of multiple files into a new file, creating it if it does not exist:
 
