@@ -38,25 +38,25 @@ You create folders using the mkdir command:
 
 `mkdir fruits`
 
-![](./figures/11.png)
+![](./figures/mkdir_command.png)
 
 You can create multiple folders with one command:
 
 `mkdir plants animals`
 
-![](./figures/12.png)
+![](./figures/mkdir_multiple_command.png)
 
 You can also create multiple nested folders by adding the -p option:
 
 `mkdir -p fruits/apples`
 
-![](./figures/13.png)
+![](./figures/mkdir_nested_command.png)
 
 You can also create a new set of nested files:
 
 `mkdir -p vehicles/electric_vehicles/tesla_car`
 
-![](./figures/14.png)
+![](./figures/mkdir_new_nested_folder_command.png)
 
 ## `touch` Command
 
@@ -64,7 +64,7 @@ You can create an empty file or files using the touch command:
 
 `touch lessons`
 
-![](./figures/19.png)
+![](./figures/touch_command.png)
 
 ## `rmdir` Command
 
@@ -76,7 +76,7 @@ Just as you can create a folder using `mkdir`, you can delete a folder using `rm
 
 The folder you delete must be empty!
 
-![](./figures/15.png)
+![](./figures/rmdir_command.png)
 
 You can also delete multiple folders at once:
 
@@ -86,7 +86,7 @@ You can also delete multiple folders at once:
 
 The folders you delete must be empty!
 
-![](./figures/16.png)
+![](./figures/rmdir_multiple_delete_command.png)
 
 ## `rm` Command
 
