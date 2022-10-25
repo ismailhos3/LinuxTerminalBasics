@@ -131,29 +131,29 @@ Using `>>` you can append the content of multiple files into a new file, creatin
 
 `cat example3.txt`
 
-![](./figures/4.png)
+![](./figures/cat_transfer_to_newfile_command.png)
 
 When you're looking at source code files it's helpful to see the line numbers. You can have cat print them using the -n option:
 
 `cat -n example3.txt`
 
-![](./figures/5.png)
+![](./figures/cat_add_number_command.png)
 
 You can only add a number to non-blank lines using -b:
 
 `cat -b example3.txt`
 
-![](./figures/6.png)
+![](./figures/cat_add_nonblank_number_command.png)
 
 The command `cat > example5.txt` creates a new file as output. We can write text in this file from the terminal.
 
-![](./figures/7.png)
+![](./figures/cat_create_text_on_terminal_command.png)
 
 When we want to write in a present file via on terminal:
 
 `cat >> example5.txt` 
 
-![](./figures/8.png)
+![](./figures/writing_to_existing_file_from_terminal.png)
 
 ## `tail` Command
 
@@ -161,13 +161,13 @@ You can print the last 2 (or NUM) lines in a file:
 
 `tail -n 2 example3.txt`
 
-![](./figures/9.png)
+![](./figures/tail1_command.png)
 
 You can print the whole file content starting from a specific line using + before the line number:
 
 `tail -n +2 example3.txt`
 
-![](./figures/10.png)
+![](./figures/tail2_command.png)
 
 ## `xdg-open` Command
 
@@ -175,13 +175,13 @@ You can print the whole file content starting from a specific line using + befor
 
 This command opens the specified file or folder.
 
-![](./figures/20.png)
+![](./figures/xdg_command.png)
 
 To open current directory:
 
 `xdg-open .` is always used to open the current directory. Here the dot represents the current directory.
 
-![](./figures/21.png)
+![](./figures/xdg2_command.png)
 
 ## `mv` Command
 
@@ -191,33 +191,33 @@ Once you have a file, you can move it around using the `mv` command. You specify
 
 Here, mvcommand.txt is renamed as move_command.txt.
 
-![](./figures/22.png)
+![](./figures/move1_command.png)
 
 `mv move_command.txt plants`
 
 Here, move_command.txt is moved into the plants folder.
 
-![](./figures/23.png)
+![](./figures/move2_command.png)
 
 If the last parameter is a folder, the file located at the first parameter path is going to be moved into that folder. In this case, you can specify a list of files and they will all be moved in the folder path identified by the last parameter:
 
 `mv example.txt example2.txt example3.txt example4.txt example5.txt examples`
 
-![](./figures/24.png)
+![](./figures/move3_command.png)
 
 ## `cp` Command
 
 You can copy a file using the `cp` command:
 
-![](./figures/25.png)
+![](./figures/cp1_command.png)
 
 To copy folders you need to add the `-r` option to recursively copy the whole folder contents:
 
-![](./figures/26.png)
+![](./figures/cp2_command.png)
 
 To copy multiple files to in to a folder:
 
 `cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
 
-![](./figures/27.png)
+![](./figures/cp3_command.png)
 
