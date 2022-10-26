@@ -240,5 +240,18 @@ To copy multiple files to in to a folder:
 
 ![](./figures/cp3_command.png)
 
+## `echo` Command
+  
+We use `echo` to print anything on the command line:
+
+![](./figures/echo_command.png)
+
+We can also use `echo` to write something into a file:
+
+![](./figures/echo2_command.png)
+
+If the file does not exist, we should use single `>` instead of `>>` :
+
+![](./figures/echo3_command.png)
 
 
