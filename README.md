@@ -244,7 +244,7 @@ To copy multiple files to in to a folder:
   
 We use `echo` to print anything on the command line:
 
-![](./figures/echo_command.png)
+![](./figures/echo1_command.png)
 
 We can also use `echo` to write something into a file:
 
