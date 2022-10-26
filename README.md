@@ -174,6 +174,20 @@ When we want to write in a present file via on terminal:
 
 ![](./figures/writing_to_existing_file_from_terminal.png)
 
+## `echo` Command
+  
+We use `echo` to print anything on the command line:
+
+![](./figures/echo1_command.png)
+
+We can also use `echo` to write something into a file:
+
+![](./figures/echo2_command.png)
+
+If the file does not exist, we should use single `>` instead of `>>` :
+
+![](./figures/echo3_command.png)
+
 ## `tail` Command
 
 You can print the last 2 (or NUM) lines in a file:
@@ -239,19 +253,4 @@ To copy multiple files to in to a folder:
 `cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
 
 ![](./figures/cp3_command.png)
-
-## `echo` Command
-  
-We use `echo` to print anything on the command line:
-
-![](./figures/echo1_command.png)
-
-We can also use `echo` to write something into a file:
-
-![](./figures/echo2_command.png)
-
-If the file does not exist, we should use single `>` instead of `>>` :
-
-![](./figures/echo3_command.png)
-
 
