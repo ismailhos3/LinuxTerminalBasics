@@ -125,6 +125,25 @@ Here, ***new_example.txt*** is a concatenated version of files ***example.txt***
 
 ![](./figures/cat_merged_command.png)
 
+To write to a file, we’ll make cat command listen to the input stream and then redirect the output of cat command into a file using the Linux redirection operators “>”.
+
+Concretely, to write into a file using cat command, we enter this command into our terminal:
+
+```cat > readme.txt``` 
+
+We’ll see that once again the terminal is waiting for our input.
+
+However, this time it won’t echo the texts we’ve entered. This is because we’ve instructed the command to redirect the output to the file readme.txt instead of the standard output stream.
+
+Let's enter some text in the terminal and then continue with CTRL+D to terminate the command:
+
+```
+cat > readme.txt
+This line was written by using terminal. # After typing, press CTRL+D to exit.
+```
+
+![](./figures/cat_writing_from_terminal_command.png)
+
 Using `>>` you can append the content of multiple files into a new file, creating it if it does not exist:
 
 `cat example.txt example2.txt >> example3.txt`
@@ -220,4 +239,6 @@ To copy multiple files to in to a folder:
 `cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
 
 ![](./figures/cp3_command.png)
+
+
 
