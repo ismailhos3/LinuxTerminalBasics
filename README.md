@@ -196,7 +196,7 @@ You can print the last 2 (or NUM) lines in a file:
 
 ![](./figures/tail1_command.png)
 
-You can print the whole file content starting from a specific line using + before the line number:
+You can print the whole file content starting from a specific line using `+` before the line number:
 
 `tail -n +2 example3.txt`
 
