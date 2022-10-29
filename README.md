@@ -254,3 +254,20 @@ To copy multiple files to in to a folder:
 
 ![](./figures/cp3_command.png)
 
+## 'gedit' Command
+
+`gedit` is the command to open the Ubuntu's default text editor Gedit. We can open and some files using it change and save:
+
+`gedit new_file.txt`
+
+![](./figures/gedit_command.png)
+
+![](./figures/gedit_edit_file_command.png)
+
+If we enter 'gedit' command on terminal, The file editor is opened immediately and you can write on it something.
+
+To close the text editor and back to the terminal window you can use `ctrl+s` to save, `ctrl+w` to close the document editing and once more `ctrl+w` to close Gedit. 
+
+As an other way to close it, press `ctrl+s` to save and go back to the terminal and press `ctrl+c`.
+
+## `ln` Command 
