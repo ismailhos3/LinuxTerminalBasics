@@ -270,4 +270,7 @@ To close the text editor and back to the terminal window you can use `ctrl+s` to
 
 As an other way to close it, press `ctrl+s` to save and go back to the terminal and press `ctrl+c`.
 
-## `ln` Command 
+## `ln` Command
+
+
+
