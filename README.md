@@ -289,5 +289,22 @@ If we want to link a directory, we get an error:
 
 ![](./figures/ln_hardlink_limitation_command.png)
 
+The new hard link you created is indistinguishable from a regular file. 
+
+Any time you edit any of those files, the content will be updated for both.
+
+If you delete the original file, the link will still contain the original file content, as that's not removed until there is one hard link pointing to it.
+
+### Soft Links
+Soft links are different than hard links. They are more powerful as you can link to other filesystems and to directories.
+
+Please, keep in mind that when the original is removed, the link will be broken.
+
+You create soft links using the `-s` option of `ln`:
+
+`ln -s "orginal file or directory" "linked file or directory"` --> `ln -s lesson.txt lesson_soft_link.txt`
+
+![](./figures/ln_soft_link_command.png)
+
 
 
