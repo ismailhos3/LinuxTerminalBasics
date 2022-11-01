@@ -46,7 +46,7 @@ You can create multiple folders with one command:
 
 ![](./figures/mkdir_multiple_command.png)
 
-You can also create multiple nested folders by adding the -p option:
+You can also create multiple nested folders by adding the `-p` option:
 
 `mkdir -p fruits/apples`
 
