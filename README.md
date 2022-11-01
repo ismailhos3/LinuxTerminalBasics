@@ -281,7 +281,7 @@ Hard links are rarely used. They have a few limitations: ***you can't link to di
 
 For example, say you have a file called lesson.txt. You can create a hard link to it using:
 
-`ln lesson.txt lesson_linked.txt` --> # ln "orginal file name" "linked file"
+`ln lesson.txt lesson_linked.txt` --> `# ln "orginal file name" "linked file"`
 
 ![](./figures/ln_hardlink_command.png)
 
