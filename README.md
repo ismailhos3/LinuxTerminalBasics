@@ -272,5 +272,22 @@ As an other way to close it, press `ctrl+s` to save and go back to the terminal 
 
 ## `ln` Command
 
+It's used to create links. 
+
+We have 2 types of links: `hard links` and `soft links`.
+
+### Hard Links
+Hard links are rarely used. They have a few limitations: ***you can't link to directories, and you can't link to external filesystems (disks)***.
+
+For example, say you have a file called lesson.txt. You can create a hard link to it using:
+
+`ln lesson.txt lesson_linked.txt` # ln "orginal file name" "linked file"
+
+![](./figures/ln_hardlink_command.png)
+
+If we want to link a directory, we get an error:
+
+![](./figures/ln_hardlink_limitation_command.png)
+
 
 
