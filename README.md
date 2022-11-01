@@ -304,7 +304,7 @@ You create soft links using the `-s` option of `ln`:
 
 `ln -s "orginal file or directory" "linked file or directory"` --> `ln -s lesson.txt lesson_soft_link.txt`
 
-![](./figures/ln_soft_link_command.png)
+![](./figures/ln_softlink_command.png)
 
 
 
