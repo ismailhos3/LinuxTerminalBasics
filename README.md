@@ -271,8 +271,9 @@ To close the text editor and back to the terminal window you can use `ctrl+s` to
 As an other way to close it, press `ctrl+s` to save and go back to the terminal and press `ctrl+c`.
 
 ## `ln` Command
-
 It's used to create links. 
+
+We can use this to link a file or folder to somewhere else.
 
 We have 2 types of links: `hard links` and `soft links`.
 
@@ -285,7 +286,7 @@ For example, say you have a file called lesson.txt. You can create a hard link t
 
 ![](./figures/ln_hardlink_command.png)
 
-If we want to link a directory, we get an error:
+If we want to link a folder, we get an error:
 
 ![](./figures/ln_hardlink_limitation_command.png)
 
@@ -302,9 +303,9 @@ Please, keep in mind that when the original is removed, the link will be broken.
 
 You create soft links using the `-s` option of `ln`:
 
-`ln -s "orginal file or directory" "linked file or directory"` --> `ln -s lesson.txt lesson_soft_link.txt`
+`ln -s "orginal file or folder" "linked file or folder"` --> `ln -s lesson.txt lesson_soft_link.txt`
 
 ![](./figures/ln_softlink_command.png)
 
-
+As a result, we usually use the soft links to link a file or folder.
 
