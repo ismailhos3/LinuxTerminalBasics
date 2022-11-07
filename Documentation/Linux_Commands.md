@@ -4,33 +4,33 @@
 
 `pwd` stands for `Print Work Directory` in Linux. Terminal opens at the home directory by default in Ubuntu. If you type pwd and press Enter you will see your home directory.
 
-![](../figures/pwd_command.png)
+![](...figures/pwd_command.png)
 
 ## `ls` Command
 
 We can list the files and folders in a directory using this command. It shows the files and folders located in your /home/"computer_name" directory. 
 
-![](./figures/ls_command.png)
+![](..figures/ls_command.png)
 
 `ls` also has some options with it. One of them is `ls -l` which prints the details of the files such as the size of a file in KB and the date that the file has been created.
 
-![](./figures/ls-l_command.png)
+![](..figures/ls-l_command.png)
 
 The other is `ls -la` and used for printing also the hidden files starting with `.` in your working directory.
 
-![](./figures/ls-la_command.png)
+![](..figures/ls-la_command.png)
 
 ## `cd` Command
 
 Once you have a folder, you can move into it using the `cd` command. `cd` means `Change Directory` in Linux. You invoke it specifying a folder to move into. You can specify a folder name, or an entire path.
 
-![](./figures/cd_command.png)
+![](..figures/cd_command.png)
 
 You can use the `..` special path to indicate the parent folder:
 
 `cd ..` 
 
-![](./figures/cd_back_command.png)
+![](..figures/cd_back_command.png)
 
 ## `mkdir` Command
 
@@ -38,25 +38,25 @@ You create folders using the mkdir command:
 
 `mkdir fruits`
 
-![](./figures/mkdir_command.png)
+![](..figures/mkdir_command.png)
 
 You can create multiple folders with one command:
 
 `mkdir plants animals`
 
-![](./figures/mkdir_multiple_command.png)
+![](..figures/mkdir_multiple_command.png)
 
 You can also create multiple nested folders by adding the `-p` option:
 
 `mkdir -p fruits/apples`
 
-![](./figures/mkdir_nested_command.png)
+![](..figures/mkdir_nested_command.png)
 
 You can also create a new set of nested files:
 
 `mkdir -p vehicles/electric_vehicles/tesla_car`
 
-![](./figures/mkdir_new_nested_folder_command.png)
+![](..figures/mkdir_new_nested_folder_command.png)
 
 ## `touch` Command
 
@@ -64,7 +64,7 @@ You can create an empty file or files using the touch command:
 
 `touch lessons`
 
-![](./figures/touch_command.png)
+![](..figures/touch_command.png)
 
 ## `rmdir` Command
 
@@ -76,7 +76,7 @@ Just as you can create a folder using `mkdir`, you can delete a folder using `rm
 
 The folder you delete must be empty!
 
-![](./figures/rmdir_command.png)
+![](..figures/rmdir_command.png)
 
 You can also delete multiple folders at once:
 
@@ -86,7 +86,7 @@ You can also delete multiple folders at once:
 
 The folders you delete must be empty!
 
-![](./figures/rmdir_multiple_delete_command.png)
+![](..figures/rmdir_multiple_delete_command.png)
 
 ## `rm` Command
 
@@ -96,11 +96,11 @@ When this command is used alone, it only deletes files, not folders.
 
 `rm TestFile.txt`
 
-![](./figures/rm_command.png)
+![](..figures/rm_command.png)
 
 If this command is used with `-rf` option, deletes everything such as folders and files. 
 
-![](./figures/rm_with_rf_command.png)
+![](..figures/rm_with_rf_command.png)
 
 ## `cat` Command 
 
@@ -109,13 +109,13 @@ In its simplest usage, `cat` prints a file's content to the standard output:
 
 `cat example.txt` 
 
-![](./figures/cat_command.png)
+![](..figures/cat_command.png)
 
 You can print the content of multiple files:
 
 `cat example.txt example2.txt` 
 
-![](./figures/cat_multiple_command.png)
+![](..figures/cat_multiple_command.png)
 
 and using the output redirection operator `>` you can concatenate the content of multiple files into a new file:
 
@@ -123,7 +123,7 @@ and using the output redirection operator `>` you can concatenate the content of
 
 Here, ***new_example.txt*** is a concatenated version of files ***example.txt*** and ***example2.txt***
 
-![](./figures/cat_merged_command.png)
+![](..figures/cat_merged_command.png)
 
 To write to a file, we’ll make cat command listen to the input stream and then redirect the output of cat command into a file using the Linux redirection operators “>”.
 
@@ -142,7 +142,7 @@ cat > readme.txt
 This line was written by using terminal. # After typing, press CTRL+D to exit.
 ```
 
-![](./figures/cat_writing_from_terminal_command.png)
+![](..figures/cat_writing_from_terminal_command.png)
 
 Using `>>` you can append the content of multiple files into a new file, creating it if it does not exist:
 
@@ -150,43 +150,43 @@ Using `>>` you can append the content of multiple files into a new file, creatin
 
 `cat example3.txt`
 
-![](./figures/cat_transfer_to_newfile_command.png)
+![](..figures/cat_transfer_to_newfile_command.png)
 
 When you're looking at source code files it's helpful to see the line numbers. You can have cat print them using the -n option:
 
 `cat -n example3.txt`
 
-![](./figures/cat_add_number_command.png)
+![](..figures/cat_add_number_command.png)
 
 You can only add a number to non-blank lines using -b:
 
 `cat -b example3.txt`
 
-![](./figures/cat_add_nonblank_number_command.png)
+![](..figures/cat_add_nonblank_number_command.png)
 
 The command `cat > example5.txt` creates a new file as output. We can write text in this file from the terminal.
 
-![](./figures/cat_create_text_on_terminal_command.png)
+![](..figures/cat_create_text_on_terminal_command.png)
 
 When we want to write in a present file via on terminal:
 
 `cat >> example5.txt` 
 
-![](./figures/writing_to_existing_file_from_terminal.png)
+![](..figures/writing_to_existing_file_from_terminal.png)
 
 ## `echo` Command
   
 We use `echo` to print anything on the command line:
 
-![](./figures/echo1_command.png)
+![](..figures/echo1_command.png)
 
 We can also use `echo` to write something into a file:
 
-![](./figures/echo2_command.png)
+![](..figures/echo2_command.png)
 
 If the file does not exist, we should use single `>` instead of `>>` :
 
-![](./figures/echo3_command.png)
+![](..figures/echo3_command.png)
 
 ## `tail` Command
 
@@ -194,13 +194,13 @@ You can print the last 2 (or NUM) lines in a file:
 
 `tail -n 2 example3.txt`
 
-![](./figures/tail1_command.png)
+![](..figures/tail1_command.png)
 
 You can print the whole file content starting from a specific line using `+` before the line number:
 
 `tail -n +2 example3.txt`
 
-![](./figures/tail2_command.png)
+![](..figures/tail2_command.png)
 
 ## `xdg-open` Command
 
@@ -208,13 +208,13 @@ You can print the whole file content starting from a specific line using `+` bef
 
 This command opens the specified file or folder.
 
-![](./figures/xdg_command.png)
+![](..figures/xdg_command.png)
 
 To open current directory:
 
 `xdg-open .` is always used to open the current directory. Here the dot represents the current directory.
 
-![](./figures/xdg2_command.png)
+![](..figures/xdg2_command.png)
 
 ## `mv` Command
 
@@ -224,35 +224,35 @@ Once you have a file, you can move it around using the `mv` command. You specify
 
 Here, mvcommand.txt is renamed as move_command.txt.
 
-![](./figures/move1_command.png)
+![](..figures/move1_command.png)
 
 `mv move_command.txt plants`
 
 Here, move_command.txt is moved into the plants folder.
 
-![](./figures/move2_command.png)
+![](..figures/move2_command.png)
 
 If the last parameter is a folder, the file located at the first parameter path is going to be moved into that folder. In this case, you can specify a list of files and they will all be moved in the folder path identified by the last parameter:
 
 `mv example.txt example2.txt example3.txt example4.txt example5.txt examples`
 
-![](./figures/move3_command.png)
+![](..figures/move3_command.png)
 
 ## `cp` Command
 
 You can copy a file using the `cp` command:
 
-![](./figures/cp1_command.png)
+![](..figures/cp1_command.png)
 
 To copy folders you need to add the `-r` option to recursively copy the whole folder contents:
 
-![](./figures/cp2_command.png)
+![](..figures/cp2_command.png)
 
 To copy multiple files to in to a folder:
 
 `cp lesson1 lesson1_new lessons_folder` --> The lesson1 and lesson1_new is copied in to the lessons_folder
 
-![](./figures/cp3_command.png)
+![](..figures/cp3_command.png)
 
 ## 'gedit' Command
 
@@ -260,9 +260,9 @@ To copy multiple files to in to a folder:
 
 `gedit new_file.txt`
 
-![](./figures/gedit_command.png)
+![](..figures/gedit_command.png)
 
-![](./figures/gedit_edit_file_command.png)
+![](..figures/gedit_edit_file_command.png)
 
 If we enter 'gedit' command on terminal, The file editor is opened immediately and you can write on it something.
 
@@ -284,11 +284,11 @@ For example, say you have a file called lesson.txt. You can create a hard link t
 
 `ln lesson.txt lesson_linked.txt` --> `# ln "orginal file name" "linked file"`
 
-![](./figures/ln_hardlink_command.png)
+![](..figures/ln_hardlink_command.png)
 
 If we want to link a folder, we get an error:
 
-![](./figures/ln_hardlink_limitation_command.png)
+![](..figures/ln_hardlink_limitation_command.png)
 
 The new hard link you created is indistinguishable from a regular file. 
 
@@ -305,7 +305,7 @@ You create soft links using the `-s` option of `ln`:
 
 `ln -s "orginal file or folder" "linked file or folder"` --> `ln -s lesson.txt lesson_soft_link.txt`
 
-![](./figures/ln_softlink_command.png)
+![](..figures/ln_softlink_command.png)
 
 As a result, we usually use the soft links to link a file or folder.
 
