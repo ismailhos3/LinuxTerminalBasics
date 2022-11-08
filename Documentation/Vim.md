@@ -1,4 +1,4 @@
-# `Vim Text Editor
+# `Vim` Text Editor
 
 In Vim, there are three modes;
 
@@ -6,4 +6,6 @@ In Vim, there are three modes;
 * `insert` mode,
 * `visual` mode,
 
-## ´insert` mode
+## `insert` mode
+
+
