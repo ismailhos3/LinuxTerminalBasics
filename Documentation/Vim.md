@@ -25,7 +25,7 @@ Type something and press `ESC` to go back the `command` mode.
 
 In the `command` mode, you can move on the text:
 
-|Keys      |Explanation        |
+|Keys                        |Explanation                               |
 |----|-----------|
 |`k`|to above (or upper arrow)|
 |----|-----------|
