@@ -27,22 +27,21 @@ In the `command` mode, you can move on the text:
 
 |Keys|Explanation|
 |----|-----------|
-|`k`|to above (or upper arrow)|
+|`k`|to move the cursor up (or the upper arrow can be used)|
+|`j`|to move the cursor down (or the lower arrow can be used)|
+|`h`|to move the cursor left (or left arrow can be used)|
+|`l`|to move the cursor to the right (or the right arrow can be used)
+|*-----------*|
 |----|-----------|
 |----|-----------|
-|----|-----------|                                               k↑
 |----|-----------|
-|----|-----------|
-|----|-----------|
-|----|-----------|                                               j↓
 |----|-----------|
 
 
-                                                                   k↑
-      
-	                                                        ← h         l→
-             		 
-	    	                                                       j↓
+
+
+
+
 
 
 
