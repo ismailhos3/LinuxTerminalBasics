@@ -25,6 +25,8 @@ Type something and press `ESC` to go back the `command` mode.
 
 In the `command` mode, you can move on the text:
 
+### Move the cursor on the text
+
 |Keys|Explanation|
 |----|-----------|
 |`k` ↑      |To move the cursor up (or the upper arrow can be used)|
@@ -42,11 +44,16 @@ In the `command` mode, you can move on the text:
 |`g+g`      |To go to the first character of the document|
 |`shift+g`  |To go to the last character of the document|
 
+### Select and copy or cut
 
-
-
- 
-
-
+|Keys|Explanation|
+|----|-----------|
+|`shift+v`         |You can select the current line|
+|`ctrl+v`          |You can select character by character|
+|`y+y`             |The current line is copied (copy 1 line)|
+|`y+3`             |4 lines are copied (number starts at 0)|
+|`shift+v` then `y`|The line is selected and copied|
+|`ctrl+v` then `x` |The line is selected and cut|
+|`p`               |Items which are selected are pasted|
 
 
