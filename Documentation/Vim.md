@@ -26,7 +26,7 @@ Type something and press `ESC` to go back the `command` mode.
 In the `command` mode, you can move on the text:
 
 |Keys|Explanation|
-|    |           |
+|----|-----------|
 |`k`*↑*|to move the cursor up (or the upper arrow can be used)|
 |`j`*↓*|to move the cursor down (or the lower arrow can be used)|
 |`h`*←*|to move the cursor left (or left arrow can be used)|
