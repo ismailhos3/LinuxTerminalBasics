@@ -27,16 +27,21 @@ In the `command` mode, you can move on the text:
 
 |Keys|Explanation|
 |----|-----------|
-|`k` ↑     |to move the cursor up (or the upper arrow can be used)|
-|`j` ↓     |to move the cursor down (or the lower arrow can be used)|
-|`h` ←     |to move the cursor left (or left arrow can be used)|
-|`l` →     |to move the cursor to the right (or the right arrow can be used)
-|`w`       |to jump forwards to the start of a word. (punctuation is considered words as well.)|
-|`CTRL+w`  |to jump forwards to the start of a word. (punctuation is NOT considered words.)|
-|`e`       |to jump forwards to the end of a word. (punctuation is considered words as well.)|
-|`CTRL+e`  |to jump forwards to the end of a word. (punctuation is NOT considered words)|
-|`b`       |to jump backwards to the start of a word. (punctuation is considered words as well.)|
-|CTRL+`b`  |to jump backwards to the start of a word. (punctuation is NOT considered words.)|
+|`k` ↑      |To move the cursor up (or the upper arrow can be used)|
+|`j` ↓      |To move the cursor down (or the lower arrow can be used)|
+|`h` ←      |To move the cursor left (or left arrow can be used)|
+|`l` →      |To move the cursor to the right (or the right arrow can be used)
+|`w`        |To jump forwards to the start of a word (Punctuation is considered words as well)|
+|`shift+w`  |To jump forwards to the start of a word (Punctuation is NOT considered words)|
+|`e`        |To jump forwards to the end of a word (Punctuation is considered words as well.)|
+|`shift+e`  |To jump forwards to the end of a word (Punctuation is NOT considered words)|
+|`b`        |To jump backwards to the start of a word (Punctuation is considered words as well)|
+|`shift+b`  |To jump backwards to the start of a word (Punctuation is NOT considered words)|
+|`ge`       |To jump backwards to the end of a word (Punctuation is considered words)|
+|`g+shift+e`|To jump backwards to the end of a word (Punctuation is NOT considered words)|
+|`g+g`      |To go to the first character of the document|
+|`shift+g`  |To go to the last character of the document|
+
 
 
 
