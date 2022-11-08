@@ -38,13 +38,11 @@ In the `command` mode, you can move on the text:
 |----|-----------|
 
 
-             k
+              `k`(↑ )
 
-
-	    h          l
-	
-
-      		 j
+    (← ) `h`        `l`(→ )
+             		 
+	    	  `j`(↓ )
 
 
 
