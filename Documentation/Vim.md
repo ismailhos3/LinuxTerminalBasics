@@ -10,16 +10,18 @@ In Vim, there are three modes;
 
 Press `i` for the `insert` mode to start writing something on the document. When you press `i`, you will see on the bottom-left corner that `--INSERT--` will be printed out. 
 
-![](../figures/001_vim_figures.png)
+![001_vim_figures.png](../figures/001_vim_figures.png)
 
 Type something and press `ESC` to go back the `command` mode.
 
-* `i` to start typing where the cursor is,
-* `shift+i` to start typing at the beginning of the line where the cursor is,
-* `a` to start typing one character right from where the cursor is,
-* `shift+a` to start typing at the end of the line where the cursor is,
-* `o` to start typing one line below from where the cursor is.
-* `shift+o` to start typing one line above from where the cursor is.
+|Keys|Explanation|
+|----|-----------|
+|`i`       |To start typing where the cursor is|
+|`shift+i` |To start typing at the beginning of the line where the cursor is|
+|`a`       |To start typing one character right from where the cursor is|
+|`shift+a` |To start typing at the end of the line where the cursor is|
+|`o`       |To start typing one line below from where the cursor is|
+|`shift+o` |To start typing one line above from where the cursor is|
 
 ## `command` mode
 
@@ -55,5 +57,16 @@ In the `command` mode, you can move on the text:
 |`shift+v` then `y`|The line is selected and copied|
 |`ctrl+v` then `x` |The line is selected and cut|
 |`p`               |Items which are selected are pasted|
+
+### Undo and Redo
+
+|Keys|Explanation|
+|----|-----------|
+|`u`      |You can undo your changes|
+|`ctrl+r` |You can redo your changes|
+
+
+
+
 
 
