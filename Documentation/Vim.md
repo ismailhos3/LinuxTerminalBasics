@@ -48,12 +48,12 @@ In the `command` mode, you can move on the text:
 
 |Keys|Explanation|
 |----|-----------|
-|`shift+v`         |You can select the current line|
-|`ctrl+v`          |You can select character by character|
-|`y+y`             |The current line is copied (copy 1 line)|
-|`y+3`             |4 lines are copied (number starts at 0)|
-|`shift+v` then `y`|The line is selected and copied|
-|`ctrl+v` then `x` |The line is selected and cut|
-|`p`               |Items which are selected are pasted|
+|`shift+v`         |You can select the current line                           |
+|`ctrl+v`          |You can select character by character                     |
+|`y+y`             |The current line is copied (copy 1 line)                  |
+|`y+3`             |4 lines are copied (number starts at 0)                   |
+|`shift+v` then `y`|The line is selected and copied                           |
+|`ctrl+v` then `x` |The line is selected and cut                              |
+|`p`               |Items which are selected are pasted                       |
 
 
