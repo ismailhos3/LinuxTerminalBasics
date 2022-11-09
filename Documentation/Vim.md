@@ -113,6 +113,26 @@ Here `-o` option splits view horizontally and (capital) `-O` splits it verticall
 
 ![](../figures/split_commandline.png)
 
+## Hidden recovery files
+
+ If you press `ctrl+z` when you are in `command` mode, Vim will immediately close and recovery files will be written. 
+
+![](../figures/hidden_recovery_file_1.png)
+
+If you want to open those files back you will see a window as follows.
+
+![](../figures/hidden_recovery_file_2.png)
+
+Here you can choose what to do:
+
+* press `e` to continue editing. In this case you will not be able to see the last changes,
+* press `r` to continue editing with the last changes,
+* press `q` to quit,
+* press `a` to abort.
+
+We do not use `ctrl+z` when we use Vim. If we do it accidentally, we just remove the hidden files to get rid of this warning.
+
+
 
 
 
