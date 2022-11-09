@@ -65,7 +65,16 @@ In the `command` mode, you can move on the text:
 |`u`      |You can undo your changes|
 |`ctrl+r` |You can redo your changes|
 
+### General
 
+|Keys|Explanation|
+|----|-----------|
+|`:w`  |Saves the document but do not quit|
+|`:wq`  |Saves and quit the document|
+|`:q`   |Quits the document|
+|`:w!`  |Forcing Vim to save but do not quit|
+|`:wq!`  |Forcing Vim to save and quit|
+|`:q!`  |Forcing Vim to only quit|
 
 
 
