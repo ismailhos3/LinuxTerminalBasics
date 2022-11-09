@@ -88,11 +88,17 @@ In the `command` mode, you can move on the text:
 |`:wq!` |Forcing Vim to save and quit|
 |`:q!`  |Forcing Vim to only quit|
 
+## Working on multiple files
 
+In the `command` mode, you can open multiple files:
 
+* Using `:split filename` horizontally divided
+* Using `:vsplit filename` vertically divided
 
-
-
+[](../figures/split_in_vim_1.png)
+[](../figures/split_in_vim_2.png)
+[](../figures/vsplit_in_vim_1.png)
+[](../figures/vsplit_in_vim_2.png)
 
 
 
