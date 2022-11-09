@@ -96,9 +96,25 @@ In the `command` mode, you can open multiple files:
 * Using `:vsplit filename` vertically divided
 
 ![](../figures/split_in_vim_1.png)
+
 ![](../figures/split_in_vim_2.png)
+
 ![](../figures/vsplit_in_vim_1.png)
+
 ![](../figures/vsplit_in_vim_2.png)
+
+In the `command` mode, it is possible to move between files by pressing `ctrl+w+w`
+ 
+You can save files and exit with `:wq` in the `command` mode or you can use `:wqall` to save all and exit from all files.
+
+Other way to open files in split mode is opening them together from terminal commandline.
+
+Here `-o` option splits view horizontally and (capital) `-O` splits it vertically.
+
+![](../figures/split_commandline.png)
+
+
+
 
 
 
