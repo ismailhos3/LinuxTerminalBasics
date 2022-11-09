@@ -14,6 +14,8 @@ Press `i` for the `insert` mode to start writing something on the document. When
 
 Type something and press `ESC` to go back the `command` mode.
 
+### Entering `insert` mode
+
 |Keys|Explanation|
 |----|-----------|
 |`i`       |To start typing where the cursor is|
@@ -45,6 +47,7 @@ In the `command` mode, you can move on the text:
 |`g+shift+e`|To jump backwards to the end of a word (Punctuation is NOT considered words)|
 |`g+g`      |To go to the first character of the document|
 |`shift+g`  |To go to the last character of the document|
+|`0`        |To go to the first character of the line|
 
 ### Select and copy or cut
 
@@ -65,16 +68,32 @@ In the `command` mode, you can move on the text:
 |`u`      |You can undo your changes|
 |`ctrl+r` |You can redo your changes|
 
+### Editing
+
+|Keys|Explanation|
+|----|-----------|
+|`c+c`    |Delete whole line and then be opened the `insert` mode|
+|`c+w`    |Delete to end of the word after cursor and then be opened the `insert` mode|
+|`d+d`    |Delete whole line and move the bottom line up|
+|`shift+s`|Delete the whole line and then be opened the `insert` mode|
+
 ### General
 
 |Keys|Explanation|
 |----|-----------|
-|`:w`  |Saves the document but do not quit|
+|`:w`   |Saves the document but do not quit|
 |`:wq`  |Saves and quit the document|
 |`:q`   |Quits the document|
 |`:w!`  |Forcing Vim to save but do not quit|
-|`:wq!`  |Forcing Vim to save and quit|
+|`:wq!` |Forcing Vim to save and quit|
 |`:q!`  |Forcing Vim to only quit|
+
+
+
+
+
+
+
 
 
 
