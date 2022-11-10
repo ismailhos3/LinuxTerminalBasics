@@ -16,7 +16,7 @@ Type something and press `ESC` to go back the `command` mode.
 
 ### Entering `insert` mode
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`i`       |To start typing where the cursor is|
 |`shift+i` |To start typing at the beginning of the line where the cursor is|
@@ -31,7 +31,7 @@ In the `command` mode, you can move on the text:
 
 ### Move the cursor on the text
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`k` ↑      |To move the cursor up (or the upper arrow can be used)|
 |`j` ↓      |To move the cursor down (or the lower arrow can be used)|
@@ -51,7 +51,7 @@ In the `command` mode, you can move on the text:
 
 ### Select and copy or cut
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`shift+v`         |You can select the current line|
 |`ctrl+v`          |You can select character by character|
@@ -63,14 +63,14 @@ In the `command` mode, you can move on the text:
 
 ### Undo and Redo
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`u`      |You can undo your changes|
 |`ctrl+r` |You can redo your changes|
 
 ### Editing
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`c+c`    |Delete whole line and then be opened the `insert` mode|
 |`c+w`    |Delete to end of the word after cursor and then be opened the `insert` mode|
@@ -79,7 +79,7 @@ In the `command` mode, you can move on the text:
 
 ### General
 
-|Keys|Explanation|
+|Keys|Description|
 |----|-----------|
 |`:w`   |Saves the document but do not quit|
 |`:wq`  |Saves and quit the document|
