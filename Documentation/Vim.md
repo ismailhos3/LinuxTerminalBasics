@@ -132,6 +132,7 @@ Here you can choose what to do:
 
 We do not use `ctrl+z` when we use Vim. If we do it accidentally, we just remove the hidden files to get rid of this warning.
 
+![](../figures/hidden_recovery_file_3.png)
 
 
 
