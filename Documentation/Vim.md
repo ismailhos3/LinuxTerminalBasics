@@ -31,6 +31,8 @@ In the `command` mode, you can move on the text:
 
 ### Move the cursor on the text
 
+![](../figures/navigators.png)
+
 |Keys|Description|
 |----|-----------|
 |`k` ↑      |To move the cursor up (or the upper arrow can be used)|
