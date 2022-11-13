@@ -7,7 +7,11 @@ You can start screen by typing `screen` on the commandline.
 ## Split
 Then divide your window vertically by `ctrl+z` and `|`.
 
+![](./figures/screen_vertical_split.png)
+
 And/or divide your window horizontally by `ctrl+z` and `shift+s`.
+
+![](./figures/screen_horizontal_split.png)
 
 ## Move
 Press `ctrl+z` and `tab` for jumping to the next half, or `ctrl+z` and `shift+tab` for the previous half.
@@ -16,7 +20,7 @@ Press `ctrl+z` and `tab` for jumping to the next half, or `ctrl+z` and `shift+ta
 
 Or you can print all the terminal numbers by pressing `ctrl+z` and `w`.
 
-![](./figures/03.20.screen_new_terminal.png)
+![](./figures/screen_terminal_numbers.png)
 
 You can change the active terminal by `ctrl+z` and `space`.
 
@@ -36,6 +40,8 @@ To change the active terminal here, you can again use `ctrl+z` and `space`. Othe
 * `ctrl+z` and `number` of the terminal you want to activate, and
 * `ctrl+z` and `"` to list the terminals and choose one of those with the arrow keys (or k to above j to below).
 
+![](./figures/screen_terminal_numbers_2.png)
+
 ## Name the Screen windows
 When you press `ctrl+z` and `"`, you will see that all the screens are named as `zsh` as default. 
 
@@ -43,11 +49,11 @@ You can change it by pressing `ctrl+z` and `shift+a`, then deleting `zsh` and wr
 
 In the below picture, the names are changed and shown by pressing `ctrl+z` and `"`.
 
-![](./figures/03.22.screen_name.png)
+![](./figures/screen_name.png)
 
 You can also see the changes when you split your terminal window vertically into 3 for example by pressing `ctrl+z` and `|` two times.
 
-![](./figures/03.23.screen_name2.png)
+![](./figures/screen_name_2.png)
 
 ## Kill a Screen window
 Here you can kill a window by pressing `ctrl+z` and `k`. It asks you to press `y` if you are sure to kill that window.
